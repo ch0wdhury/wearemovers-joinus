@@ -1,0 +1,192 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.navbar-brand.custom_brand {
+	    width: 70%;
+	}
+	.list-unstyled.row {
+		margin-bottom: 0px;
+	}
+	.driver-details-buttons-wrapper ul li {
+		margin-bottom: 10px;
+	}
+	.common-btn-style {
+	  padding: 5px 5px;
+	}
+	.checkbox label {
+	   font-weight: 600;
+	}
+	.form-group label, .form-row label, .row p {
+	   font-size: 14px;
+	}
+	.form-box p {
+	  font-size: 14px;
+	}
+	.upload-options label::after {
+	  font-size: 16px;
+	}
+	.common-title h3 {
+		font-size: 16px;
+	}
+	.switch_1 {
+	  margin-bottom: -5px;
+	}
+	input[type="checkbox"].switch_1 {
+	  font-size: 14px;
+	}
+	.driver-number p {
+	  font-size: 12px;
+	}
+	.custom-modal iframe {
+	  width: 265px;
+	  height: 150px;
+	}
+	.form-box table {
+	  font-size: 14px;
+	}
+	.btn-accept-custom {
+		font-size: 10px;
+	}
+	.btn-reject-custom {
+		font-size: 10px;
+	}
+	.fc-toolbar-title {
+		font-size: 14px!important;
+	}
+	.fc .fc-button {
+		font-size: 12px!important;
+	}
+	.fc .fc-button .fc-icon {
+		font-size: 12px;
+	}
+	.fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
+	    margin-left: 5px;
+	    margin-top: 5px;
+	}
+	.form-calendar-content {
+		margin: 5px auto!important;
+	}
+	.media-body .media-heading {
+	  font-size: 14px;
+	}
+	.short-msg small {
+	   overflow: hidden;
+	   display: -webkit-box;
+	   -webkit-line-clamp: 2;
+	   -webkit-box-orient: vertical;
+	   line-height: 1;
+	   color: #444444;
+	   font-size: 10px;
+	}
+	.conversation-body small {
+	  font-size: 12px;
+	}
+	.msg {
+	  padding-left: 0px;
+	  border-left: 3px solid #E4E6D4;
+	  margin-bottom: 10px;
+	}
+	.reply {
+	  padding-left: 0px;
+	  border-left: 3px solid #ABFE93;
+	  margin-bottom: 10px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.navbar-brand.custom_brand {
+	    width: 45%;
+	}
+	.list-unstyled.row {
+		margin-bottom: 0px;
+	}
+	.driver-details-buttons-wrapper ul li {
+		margin-bottom: 15px;
+	}
+	.common-btn-style {
+	  padding: 5px 5px;
+	}
+	.checkbox label {
+	   font-weight: 600;
+	}
+	.form-group label, .form-row label, .row p {
+	   font-size: 14px;
+	}
+	.form-box p {
+	  font-size: 14px;
+	}
+	.upload-options label::after {
+	  font-size: 16px;
+	}
+	.common-title h3 {
+		font-size: 16px;
+	}
+	.driver-number p {
+	  font-size: 12px;
+	}
+	.form-calendar-content {
+		margin: 5px auto!important;
+	}
+	.form-box table {
+	  font-size: 14px;
+	}
+	.btn-accept-custom {
+		font-size: 12px;
+	}
+	.btn-reject-custom {
+		font-size: 12px;
+	}
+	.media-body .media-heading {
+	  font-size: 14px;
+	}
+	.conversation-body small {
+	  font-size: 12px;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar-brand.custom_brand {
+	    width: 35%;
+	}
+	.common-btn-style {
+	  padding: 5px 5px;
+	}
+	.checkbox label {
+	   font-weight: 600;
+	}
+	.form-group label, .form-row label, .row p {
+	   font-size: 14px;
+	}
+	.form-box p {
+	  font-size: 14px;
+	}
+	.box {
+	    margin: 15px 0px;
+	}
+	.upload-options label::after {
+	  font-size: 16px;
+	}
+	.common-title h3 {
+		font-size: 16px;
+	}
+	.driver-number p {
+	  font-size: 12px;
+	}
+	.form-box table {
+	  font-size: 14px;
+	}
+	.footer-description ul li, .footer-description p, .footer-description a {
+		 font-size: 12px;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
